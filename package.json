@@ -1,0 +1,24 @@
+{
+  "name": "zenku-f",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build":"tailwindcss build tailwind.css -o styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YA-GA-HI/zenku-f.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YA-GA-HI/zenku-f/issues"
+  },
+  "homepage": "https://github.com/YA-GA-HI/zenku-f#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.8"
+  }
+}

@@ -1,0 +1,48 @@
+.scale-animation{
+    animation:scaleanimation 20s infinite ;
+}
+
+
+/*scroll*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #EF4444;
+}
+
+
+
+
+
+
+/*animations*/
+
+
+@keyframes scaleanimation 
+{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.05);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -5,6 +5,11 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend:{
+      fontFamily: {
+        sans: ['Quicksand', 'sans-serif'],
+    },
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -427,6 +432,7 @@ module.exports = {
       '3/6': '50%',
       '4/6': '66.666667%',
       '5/6': '83.333333%',
+      '200': '50rem',
       full: '100%',
       screen: '100vh',
     }),
