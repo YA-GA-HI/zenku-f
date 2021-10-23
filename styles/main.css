@@ -1,5 +1,27 @@
+
+
+body{
+    overflow-x:hidden;
+}
+
 .scale-animation{
     animation:scaleanimation 20s infinite ;
+}
+
+
+
+.footer-border{
+    position: absolute;
+    width: 100vw;
+    left:-20px;
+    background-color: white;
+    height: 2px;
+    bottom:0px;
+}
+
+
+#footerBody a , #footerBody .footer-social-link{
+    text-decoration-color:#EF4444 ;
 }
 
 
@@ -12,7 +34,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: black;
+    background: #111827;
 }
 
 /* Handle */

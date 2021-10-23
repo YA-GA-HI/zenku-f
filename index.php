@@ -25,5 +25,8 @@
     <div class="bg-gray-900  w-full absolute opacity-10 h-full"></div>
     </div>
     <div class="h-96 w-full my-96"></div>
+    <?php
+    require_once('components/footer.php');
+    ?>
 </body>
 </html>
